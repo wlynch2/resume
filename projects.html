@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang = "eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>home page</title>
+        <link rel="stylesheet" href="../CSS/styles.css">
+        <link rel="stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        
+    </head>
+
+    <header>
+        <div id = "container" class = "dropdown">
+            
+               
+            <a href = "index.html" id = "port"><strong>Williams portfolio</strong></a></li>
+            <a href = "about.html">About Me</a></li>
+            <a href = "education.html">Education</a></li>
+            <button style = "margin: 0px;" class = "btn dropdown-toggle" type = "button" id = "dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Professional info</button>
+            <div class = "dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class = "dropdown-item" href = "prof.html">Experience</a>
+                <a class = "dropdown-item" href = "awards.html">Certifications</a>
+                <a class = "dropdown-item" href = "hobbies.html">Extracurricular</a>
+                <a class = "dropdown-item" href = "projects.html">Projects</a>
+            </div>
+            <a href = "hobbies.html">Hobbies</a></li>
+            <a href = "contact.html">contact</a></li>
+            <a href = "map.html">My Map</a></li>
+            <a href = "REST.html" >REST Data</a></li>     
+        </div>
+
+  
+    </header>
+    
+
+    <body>
+        <div class = "space">
+            <h1>My Projects</h1>
+            <p>Heres what ive been working on</p>
+            <div class = "container mt-5">
+                <table class = "table table-striped table-bordered">
+                    <thead class = "table-dark">
+                        <tr>
+                            <th>Projects</th>
+                            <td>
+                                Descriptions
+                            </td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <th><video width = "200" height = "125" autoplay loop>
+                            <source src = "../Videos/CaptureTheFlag.mp4">
+                        </video>
+                        </th>
+                        <td>
+                            <ul>
+                                <li>Created a two player game using pygame where the player has to reach the opponents side without being captured</li>
+                                <li>Features a working score counter and reset mechanism for seamles gameplay</li>
+                                <li>Icludes safezones and borders blocking players from interacting in certan areas</li>
+                            </ul>
+                             
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><video width = "200" height = "125" autoplay loop> 
+                            <source src = "../Videos/pongVid.mp4">
+                        </video></th>
+                        <td>
+                            <ul>
+                                <li>Developed a single player classic with an Ai opponent using pygame</li>
+                                <li>Players defend their side by hitting the ball vack to the opponent with a winning score of 7</li>
+                                <li>Ball speed is slightly higher than player and AI speed to make for more difficult gameplay</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><video width = "200" height = "125" autoplay loop>
+                            <source src = "../Videos/robloxGame.mp4">
+                        </video></th>
+                        <td>
+                            <ul>
+                                <li>Created a roblox obby where the goal is to get to the top without falling</li>
+                                <li>Incorporates killblocks and checkpoints requiring script for the player to interact with them</li>
+                                <li>Includes moving and dissepearing blocks to make for a more fun and exciting Experience</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+   
+    <footer class = "foot">
+        <p>@ 2025 My Portfolio</p>
+    </footer>
+
+
+</html>

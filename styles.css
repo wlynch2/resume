@@ -1,0 +1,103 @@
+body, ul, li, h1, h2{
+    margin:0;
+    padding: 0;
+    font-family: arial;
+}
+header {
+   background-color: #C19A6B; 
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+div > a {
+    text-decoration: none;
+    color: black;
+}
+
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.space > h1 {
+    text-align: center;
+    color: #C19A6B;
+    margin-top: 70px;
+
+}
+
+.space > p {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#port{
+    font-size: large;
+}
+
+.space {
+    flex:1;
+}
+
+.foot{
+    background-color:#C19A6B;
+    text-align: center;
+    padding: 10px;
+}
+#uwgImg {
+    margin-left: 200px;
+}
+
+h4 {
+    background-color: lightgray;
+    border-bottom: 2px solid;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.inputs {
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+label {
+    padding-top: 25px;
+}
+
+textarea {
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;   
+}
+
+#submit {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgb(63, 63, 241);
+}
+
+#leftP {
+    text-align: left;
+    margin-left: 10%;
+}
+
+#para {
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
